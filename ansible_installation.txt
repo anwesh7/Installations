@@ -1,0 +1,20 @@
+Traditional installtion of Ansible
+
+Getting the Epel repo: https://docs.fedoraproject.org/en-US/epel/
+
+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm 
+
+Installing the epel repo
+
+yum install epel-release-latest-9.noarch.rpm
+
+Update:
+
+yum update -y
+
+Install the Packages
+
+yum install python python-devel python-pip openssl ansible -y
+
+
+
